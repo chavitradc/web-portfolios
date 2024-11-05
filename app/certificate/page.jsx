@@ -11,6 +11,15 @@ const images = [
     title: "Thailand Cyber Top Talent 2023",
     imagePath: "/assets/pics/certificate/CTF_rockyou.png",
   },
+  {
+    title: "Cyber Range Thailand 2024",
+    imagePath:
+      "/assets/pics/certificate/Chavit Radchapolsitte - Certificate.png",
+  },
+  {
+    title: "Thailand Cyber Top Talent 2024",
+    imagePath: "/assets/pics/certificate/TCTT2024.png",
+  },
 ];
 const Certificate = () => {
   return (

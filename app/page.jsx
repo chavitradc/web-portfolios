@@ -10,13 +10,15 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/*text*/}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Passionate about Cyber Security </span>
+            <span className="text-xl">
+              Passionate about Cloud Engineer & Cloud Security 
+            </span>
             <h1 className="h1">
               Hello my name is <br />{" "}
               <span className="text-blue-600">Chavit Radchapolsitte</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Intersted in Cyber Security, Cloud Security, Web Developer
+              Intersted in Cloud Engineer , Cloud Security, Web Developer
             </p>
             {/*btn*/}
             <div className="flex flex-col xl:flex-row items-center gap-8">

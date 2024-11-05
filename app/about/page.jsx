@@ -14,6 +14,8 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiPython,
+  SiMicrosoftazure,
+  SiAzurefunctions,
 } from "react-icons/si";
 
 import { FaNodeJs, FaReact } from "react-icons/fa";
@@ -68,6 +70,8 @@ const skills = {
     { icon: <SiTailwindcss />, name: "tailwind.css" },
     { icon: <FaNodeJs />, name: "node.js" },
     { icon: <SiPython />, name: "python" },
+    { icon: <SiMicrosoftazure />, name: "Microsoft Azure" },
+    { icon: <SiAzurefunctions />, name: "Azure Function App" },
   ],
 };
 const education = {

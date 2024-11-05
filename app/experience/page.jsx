@@ -20,8 +20,20 @@ import Image from "next/image";
 const projects = [
   {
     num: "01",
+    category: "Cloud Todo App",
+    title: "Azure To-Do List Application",
+    description:
+      "A cloud-native To-Do List application hosted on Azure. This app enables users to manage tasks through a serverless architecture. Built using Azure Static Web Apps for frontend hosting, Azure Function App for backend API handling, and Azure Table Storage for efficient data management, it showcases scalable and secure cloud solutions for task management",
+
+    stack: [{ name: "Azure Function App" }, { name: "Azure Table Storage" }],
+
+    image: "/assets/pics/project/thumbnail4.png",
+    live: "https://witty-island-08ea4430f.5.azurestaticapps.net/",
+  },
+  {
+    num: "02",
     category: "VR-DARTS",
-    title: "Project 1",
+    title: "Project 2",
     description:
       "VR-DARTS is a website designed for learning and memorizing aircraft. It features lessons and quizzes that users can complete after each module to reinforce their knowledge.",
 
@@ -35,9 +47,9 @@ const projects = [
     live: "https://cosi.bu.ac.th/vr-darts",
   },
   {
-    num: "02",
+    num: "03",
     category: "Hands-on Labs",
-    title: "Project 2",
+    title: "Project 3",
     description:
       "I've been doing hands-on labs on TryHackMe, Hack The Box, and other platforms to practice my skills and keep learning. It's also a great way to try out new tools for CTF competitions For example, I've done labs on Windows forensics where I practiced using tools to investigate and find suspicious information on Windows OS. Some of the tools I used include RegistryExplorer and Autopsy.",
 
@@ -47,9 +59,9 @@ const projects = [
     live: "#",
   },
   {
-    num: "03",
+    num: "04",
     category: "CTF Blue & Red Team",
-    title: "Project 3",
+    title: "Project 4",
     description:
       "I got to participate in both the blue team and red team in a CTF competition. During the event, we used various tools to handle different challenges. For example, we used Autopsy for digital forensics to pull data from hard drives or memory and analyze the compromised systems.",
 
